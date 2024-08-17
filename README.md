@@ -1,5 +1,5 @@
 # JavaScript Practice
-This repository contains various code snippets created as a means of practicing JavaScript, all compiled into a single HTML file.
+This repository contains various simple beginner-level code snippets created as a means of practicing JavaScript, all compiled into a single HTML file.
 
 ## Table of Contents
 - [Goal](#goal)
@@ -21,7 +21,7 @@ This repository contains various code snippets created as a means of practicing 
 - **Guess the Number**: Guess a number between 1 and 10 and see if it matches the randomly generated number.
 
 ## Installation Instructions
-Open the [live page]() or:
+Open the [live page](https://sarafreitas02.github.io/javascript-pratice/) or:
 1. Clone the repository to your local machine using:
    ```bash
    git clone <repository-url>
