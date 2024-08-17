@@ -1,0 +1,99 @@
+/*Math*/
+#math button {
+    margin: 5%;
+    background-color: transparent;
+    border-radius: 30%;
+    border-color: black;
+    color: black;
+} 
+
+#math button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#math h1, #math
+h2 {
+    color: black;
+    text-align: center;
+}
+
+
+/*Language Switch*/
+#language-switch button {
+    background-color: transparent;
+    border: solid 1px;
+    color: black;
+    border-radius: 20px;
+    margin: 10px;
+    width: 25%;
+}
+
+#language-switch button:hover {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+#language-switch h1 {
+    text-align: center;
+}
+
+/*Language Selector*/
+#language-selector h1,
+#language-selector p {
+    color: black;
+    text-align: center;
+}
+
+#language-selector button,
+#language-selector select {
+    width: 30%;
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    border-color: black;
+    color: black;
+}
+
+#language-selectorbutton:hover, #language-selector
+select:hover {
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+/*Radio Button Message*/
+#radio-btn-msg input:hover {
+    cursor: pointer;
+}
+
+/*Responsiveness and others*/
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.border {
+    border: solid 1px black;
+    border-radius: 30px;
+    margin:20px;
+}

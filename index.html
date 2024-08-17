@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name='description' content=''>
+    <link rel='stylesheet' type='text/css' href='style.css' />
+    <title>Javascript Practice</title>
+</head>
+
+<body>
+
+    <!--Addition / Subtraction-->
+    <div id="math" class="border">
+        <h1>Choose a number:</h1>
+        <h2 id="number-chosen">0</h2>
+        <div class="flex-row justify-center align-center">
+            ​<button onclick="addition()">+</button>
+            <button onclick="subtraction()">-</button>
+        </div>
+
+    </div>
+
+    <!--Language Switch-->
+    <div id="language-switch" class="border">
+        <h1 id="greeting">Hello</h1>
+        <div class="flex-row justify-center align-center">
+            <button onclick="english()">English</button>
+            <button onclick="portuguese()">Portuguese</button>
+        </div>
+    </div>
+
+    <!--Language Selector-->
+    <div id="language-selector" class="border flex-column justify-center align-center">
+        <h1> Store Name </h1>
+        <p>Product</p>
+            <button>Buy Now</button>
+            <select id="language">
+                <option value="en">English</option>
+                <option value="pt">Portuguese</option>
+            </select>
+    </div>
+
+    <!--Radio Button Message-->
+    <div id="radio-btn-msg" class="border flex-column align-center justify-center">
+        <h3>Choose your language:</h3>
+        <div class="flex-column justify-center align-center">
+            <div class="flex-row-reverse justify-center align-center">
+                <label for="css">CSS</label>
+                <input name="radio" id="css" type="radio">
+            </div>
+            <div class="flex-row-reverse justify-center align-start">
+                <label for="html">HTML</label>
+                <input name="radio" id="html" type="radio">
+            </div>
+            <div class="flex-row-reverse justify-center align-center">
+                <label for="js">JavaScript</label>
+                <input name="radio" id="js" type="radio">
+            </div>
+        </div>
+        <div id="message"></div>
+    </div>
+
+    <!--Number Generator-->
+    <div id="num-generator" class="border flex-column justify-center align-center">
+        <h1>Guess the number</h1>
+        <form id="form" class="flex-column justify-center align-center">
+            <p>Choose a number from 1 to 10 </p>
+            <input id="guessed-number" type="number" min="1" max="10">
+        </form>
+        <br>
+        <button onclick="generateNumber()">Guess</button>
+        <p id="chosen"></p>
+        <p id="gen-num"></p>
+        <p id="number"></p>
+        <p id="message"></p>
+    </div>
+    <script src='script.js'></script>
+</body>
+
+</html>
