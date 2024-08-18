@@ -26,8 +26,10 @@ This repository contains various simple beginner-level code snippets created as 
 Open the [live page](https://sarafreitas02.github.io/javascript-pratice/) or:
 1. Clone the repository to your local machine using:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/SaraFreitas02/javascript-pratice
 2. Navigate to the project directory.
+   ```bash
+   cd javascript-pratice
 3. Open each respective `index.html` in your preferred web browser to view the webpage.
 
 ## Usage Instructions
