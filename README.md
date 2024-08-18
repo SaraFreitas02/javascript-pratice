@@ -1,3 +1,5 @@
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
 # JavaScript Practice
 This repository contains various simple beginner-level code snippets created as a means of practicing JavaScript, all compiled into a single HTML file.
 
